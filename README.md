@@ -1,1 +1,1 @@
-# MaquetadoMicroSitios
+Proyecto de maquetado para micro sitios de la facultad de matemáticas de la UADY
