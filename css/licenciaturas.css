@@ -8,6 +8,14 @@ body {
 img {
     max-width: 100%;
 }
+a {
+    text-decoration:  none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: #C78D2A;
+}
 .col {
     padding-left: 16px;
     padding-right: 16px;
@@ -51,7 +59,33 @@ img {
 }
 .secciones {
     padding: 16px;
+    margin-bottom: 32px;
 }
 .contenidos {
     font-size: 16px;
+    max-width: 100%;
+}
+.link-detalles {
+    margin-top: 24px;
+}
+.documentacion {
+    margin-bottom: 32px;
+}
+.medianil {
+    margin-right: 32px;
+}
+.card-pdf {
+    box-shadow: 0 4px 8px #000000;
+    padding: 16px;
+}
+.img-logo {
+    margin-bottom: 16px;
+}
+.icono-pdf {
+    margin-left: 24px;
+}
+.title-pdf {
+    font-size: 24px;
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
