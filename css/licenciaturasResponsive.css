@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Alegreya+Sans');
+
+/*temporal:
+solo para efectos de pruebas de diseño*/
+body {
+    background-color: #f3f3f3;
+}
+img {
+    max-width: 100%;
+}
+.col {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.col-sm-3{
+    margin-bottom: 15px;
+}
+.micrositio {
+    background-color: white;
+    padding: 5%;
+    font-family: 'Alegreya', serif;
+    width: 100%;
+
+    /*temporales*/
+    max-width: 1366px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.title-top {
+    font-size: 7vh;
+}
+.title-lic {
+    font-size: 9.5vh;
+}
+.reconocimientos {
+    margin-top: 5%;
+    margin-bottom:  5%;
+}
+.title-reconocimientos {
+    font-size: 24px;
+    margin-bottom: 5%;
+}
+.title-individual {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.img-reconocimiento {
+    width: 320px;
+    box-shadow: 0 4px 8px #000000;
+}
+.titulos {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.secciones {
+    padding: 16px;
+}
+.contenidos {
+    font-size: 16px;
+}
