@@ -40,7 +40,7 @@ a:hover {
 }
 .reconocimientos {
     margin-top: 64px;
-    margin-bottom:  64px;
+    margin-bottom: 64px;
 }
 .title-reconocimientos {
     font-size: 24px;
@@ -48,10 +48,12 @@ a:hover {
 }
 .title-individual {
     font-size: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 .img-reconocimiento {
-    width: 320px;
+    /*width: 320px;*/
+    width: 278px;
+    height: 198px;
     box-shadow: 0 4px 8px #000000;
     margin-bottom: 32px;
 }
@@ -71,7 +73,6 @@ a:hover {
     margin-top: 24px;
 }
 .documentacion {
-
     margin-top: 32px;
 }
 .medianil {
@@ -85,14 +86,18 @@ a:hover {
     height: 288px;
 }
 .img-logo {
-    margin-bottom: 16px;
+    margin-bottom: 64px;
 }
 .icono-pdf {
     margin-left: 24px;
 }
 .title-pdf {
     font-size: 24px;
-    margin-top: 48px;
+    margin-bottom: 64px;
+    height: 98px;
+}
+.title-pdf-card {
+    font-size: 24px;
 }
 .descargar {
     position: absolute;
