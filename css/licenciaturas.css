@@ -4,6 +4,16 @@
 solo para efectos de pruebas de diseño*/
 body {
     background-color: #f3f3f3;
+
+    overflow: hidden;
+}
+.miniBODY{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: -17px;
+    overflow-y: scroll;
 }
 img {
     max-width: 100%;
@@ -131,16 +141,19 @@ a:hover {
     font-family: Alegreya;
     text-align: left;
     font-size: 18px;
-    box-shadow: 1px 1px  grey;
+}
+.modalFOOT{
+    background-color: white;
 }
 .modalCLOSE{
     background-color: white;
     float: right;
     font-family: Alegreya Sans;
     font-size: 24px;
-    text-align: right;
+    text-align: center;
     kerning: 3.57%;
 }
+
 .resetCSS {
   all: initial;
   * {
