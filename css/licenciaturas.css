@@ -137,23 +137,30 @@ a:hover {
     padding-left: 24px;
     padding-top: 24px;
 }
+.modal-content{
+    border-radius: 0px;
+}
 .modal-dialog{
     overflow-y: initial !important
 }
 .modal-body{
-    height: 75vh;
-    border-radius: 4;
+    height: 84.5vh;
+}
+.modalSUBT{
+    font-family: Alegreya;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
 }
 .modalBODY{
     font-family: Alegreya;
     text-align: left;
     font-size: 18px;
     overflow-y: auto;
-    border-radius: 4;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.75);
 }
 .modalFOOT{
     background-color: white;
-    border-radius: 4;
 }
 .modalCLOSE{
     background-color: white;
@@ -163,7 +170,6 @@ a:hover {
     text-align: center;
     kerning: 3.57%;
 }
-
 .resetCSS {
   all: initial;
   * {
