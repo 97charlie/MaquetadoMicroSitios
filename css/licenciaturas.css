@@ -137,13 +137,23 @@ a:hover {
     padding-left: 24px;
     padding-top: 24px;
 }
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    height: 75vh;
+    border-radius: 4;
+}
 .modalBODY{
     font-family: Alegreya;
     text-align: left;
     font-size: 18px;
+    overflow-y: auto;
+    border-radius: 4;
 }
 .modalFOOT{
     background-color: white;
+    border-radius: 4;
 }
 .modalCLOSE{
     background-color: white;
