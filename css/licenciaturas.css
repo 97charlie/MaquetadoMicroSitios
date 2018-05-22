@@ -114,3 +114,9 @@ a:hover {
     position: absolute;
     bottom: 0px;
 }
+.resetCSS {
+  all: initial;
+  * {
+    all: unset;
+  }
+}
