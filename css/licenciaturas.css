@@ -100,6 +100,10 @@ a:hover {
     width: 215px;
     height: 288px;
 }
+.size-pdf {
+    max-width: 215px;
+    height: 100%;
+}
 .img-logo {
     margin-bottom: 64px;
 }
@@ -108,7 +112,7 @@ a:hover {
 }
 .title-pdf {
     font-size: 24px;
-    margin-bottom: 64px;
+    padding-bottom: 64px;
     height: 98px;
 }
 .title-pdf-card {
@@ -171,6 +175,7 @@ a:hover {
     font-size: 24px;
     text-align: center;
     kerning: 3.57%;
+    padding: 16px;
 }
 .link-hover:hover {
     color: #C78D2A;
@@ -196,4 +201,7 @@ a:hover {
 }
 .enlace-modal {
     display: inline-block;
+}
+.subtitulos {
+    font-style: italic;
 }
