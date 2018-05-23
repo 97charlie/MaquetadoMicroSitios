@@ -151,7 +151,7 @@ a:hover {
     overflow-y: initial !important
 }
 .modal-body{
-    max-height: 81vh;
+    max-height: 80vh;
     padding: 0px 32px 32px 32px;
 }
 .modalSUBT{
