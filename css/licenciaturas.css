@@ -3,8 +3,7 @@
 /*temporal:
 solo para efectos de pruebas de diseño*/
 body {
-    background-color: #f3f3f3;
-
+    background-color: #ffffff;
     overflow: hidden;
 }
 .miniBODY{
@@ -20,6 +19,7 @@ ol{
 }
 img {
     max-width: 100%;
+    max-height: 100%;
 }
 a {
     text-decoration:  none;
@@ -191,10 +191,14 @@ a:hover {
 .header {
     max-width: 1444px;
     max-height: 460px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .footer {
     max-width: 1444px;
     max-height: 374px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .separador-vertical {
     margin-top: 32px;
