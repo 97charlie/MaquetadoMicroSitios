@@ -95,6 +95,8 @@ a:hover {
     box-shadow: 0 4px 8px rgba(0,0,0,0.32);
     padding: 16px;
     margin-bottom: 32px;
+    /*max-width: 215px;
+    max-height: 288px;*/
     width: 215px;
     height: 288px;
 }
