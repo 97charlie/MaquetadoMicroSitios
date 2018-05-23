@@ -15,6 +15,9 @@ body {
     right: -17px;
     overflow-y: scroll;
 }
+ol{
+    padding-left: 16px;
+}
 img {
     max-width: 100%;
 }
@@ -134,7 +137,7 @@ a:hover {
     font-weight: bold;
     text-align: left;
     font-size: 24px;
-    padding-left: 24px;
+    padding-left: 16px;
     padding-top: 24px;
 }
 .modal-content{
